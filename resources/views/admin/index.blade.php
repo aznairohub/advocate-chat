@@ -23,7 +23,7 @@
   <link rel="shortcut icon" href="/assets/images/favicon.png" />
 </head>
 
-<body>
+<body style="background-color:lightslategray;">
   <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
@@ -78,7 +78,7 @@
       </div>
     </nav>
     <!-- partial -->
-    <div class="container-fluid page-body-wrapper">
+    <div class="container-fluid page-body-wrapper" >
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
@@ -118,7 +118,7 @@
       </nav>
       @yield('adminbody')
     </div>
-    
+   
   </div>
   
   <!-- container-scroller -->

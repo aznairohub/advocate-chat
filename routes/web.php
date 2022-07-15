@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\indexController;
 use App\Http\Controllers\adminController;
+use App\Http\Controllers\userController;
+use App\Http\Controllers\advocateController;
+use App\Http\Controllers\BotManController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,3 +32,11 @@ Route::get('/admin/viewuser',[adminController::class,'viewuser']);
 Route::get('/admin/viewadvocate',[adminController::class,'viewadvocate']);
 Route::get('/adminprofile',[adminController::class,'adminprofile']);
 // Route::get('/adminindex',[adminController::class,'index']);
+
+Route::get('/advocateindex',[advocateController::class,'index']);
+
+
+Route::get('/userindex',[userController::class,'index']);
+
+
+Route::match(['get', 'post'], '/botman', 'BotManController@handle');

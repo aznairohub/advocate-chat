@@ -7,7 +7,21 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
-
+<style>
+            html, body {
+                background-color: #fff;
+                color: #636b6h;
+                font-weight: 100;
+                height: 100px;
+                margin: 10px;
+            }
+        </style>
+        <script type="text/javascript">
+            var botmanWidget = {
+                aboutText: 'Hello there',
+                introMessage: "I am Botman, Happy to talk with you!"
+            };
+        </script>
     <!-- Favicon -->
     <link href="/img/favicon.ico" rel="icon">
 
@@ -290,5 +304,14 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
 </body>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
+<script>
+    var botmanWidget = {
+        aboutText: 'ssdsd',
+        introMessage: "✋ Hi! I'm form ItSolutionStuff.com"
+    };
+</script>
+
+<script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
 
 </html>
