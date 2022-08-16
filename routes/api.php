@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\API\advocatechatController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/services',[indexController::class,'services']);
+Route::post('/advocateRegistration',[advocatechatController::class,'advocateRegistration']);
+Route::post('/clientRegistration',[advocatechatController::class,'clientRegistration']);
+Route::put('/editclientprofile',[advocatechatController::class,'editclientprofile']);
+Route::get('/admin/viewclientprofile',[advocatechatController::class,'adminviewclientprofile']);
+
